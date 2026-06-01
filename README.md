@@ -16,7 +16,7 @@
 > *"E agora, permanecem a fé, a esperança e o amor. Mas o maior deles é o amor."*
 > — I Coríntios 13:13
 
-🔗 **[Acessar o site →](nao tem)**
+🔗 **[Acessar o site →](https://casamentojj.vercel.app/#inicio)**
 
 </div>
 
@@ -81,6 +81,14 @@ Por ser um site estático, basta abrir o arquivo no navegador:
 ```bash
 # Abra diretamente
 index.html
+```
+
+Ou, para servir localmente (recomendado para testar tudo certinho):
+
+```bash
+# Com Python instalado
+python -m http.server 8000
+# Depois acesse http://localhost:8000
 ```
 
 ---
