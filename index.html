@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bárbara & Gabriel — 12.09.2026</title>
+  <meta name="description" content="Casamento de Bárbara & Gabriel — 12 de setembro de 2026, Presidente Bernardes, SP. Confirme sua presença." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Jost:wght@200;300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+
+<nav id="navbar">
+  <a href="#inicio" class="nav-logo">B & G</a>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#inicio">Início</a></li>
+    <li><a href="#noivos">Os Noivos</a></li>
+    <li><a href="#onde">Onde Será</a></li>
+    <li><a href="#presentes">Presentes</a></li>
+    <li><a href="#confirmacao">Confirmar</a></li>
+  </ul>
+  <button class="nav-toggle" id="navToggle" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<section id="inicio">
+  <div class="hero-bg-fallback"></div>
+  <div class="hero-bg-photo" id="heroBg"></div>
+  <div class="hero-frame"></div>
+
+  <div class="hero-content">
+    <p class="hero-tag">Casamento</p>
+
+    <h1 class="hero-names">
+      Bárbara
+      <span class="hero-ampersand">&</span>
+      Gabriel
+    </h1>
+
+    <p class="hero-date">12 · Setembro · 2026 · 15h00  —  Pres. Bernardes, SP</p>
+
+    <div class="countdown">
+      <div class="countdown-item">
+        <span class="countdown-num" id="cd-days">--</span>
+        <span class="countdown-label">Dias</span>
+      </div>
+      <div class="countdown-item">
+        <span class="countdown-num" id="cd-hours">--</span>
+        <span class="countdown-label">Horas</span>
+      </div>
+      <div class="countdown-item">
+        <span class="countdown-num" id="cd-mins">--</span>
+        <span class="countdown-label">Min</span>
+      </div>
+      <div class="countdown-item">
+        <span class="countdown-num" id="cd-secs">--</span>
+        <span class="countdown-label">Seg</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    <span>Role</span>
+  </div>
+</section>
+
+<section id="noivos">
+  <div class="container">
+    <p class="section-label fade-up">Os Noivos</p>
+    <h2 class="section-title fade-up">Dois corações,<br><em>uma só história.</em></h2>
+
+    <blockquote class="bible-quote fade-up">
+      "E agora, permanecem a fé, a esperança e o amor. Mas o maior deles é o amor."
+    </blockquote>
+    <p class="bible-ref fade-up">— I Coríntios 13:13</p>
+
+    <p class="section-body fade-up">
+      Criamos este espaço para compartilhar com cada um de vocês a alegria do nosso casamento.
+      Aqui você encontrará os horários, localização e nossa lista de presentes.
+    </p>
+
+    <div class="photo-grid">
+      <div class="photo-item fade-up">
+        <img src="./fotos/foto1.jpg" alt="Bárbara e Gabriel" loading="lazy"
+             onerror="this.parentElement.innerHTML='<div class=\'photo-placeholder\'><svg width=\'32\' height=\'32\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><path d=\'M21 15l-5-5L5 21\'/></svg><span>Foto 1</span></div>'" />
+      </div>
+      <div class="photo-item fade-up">
+        <img src="./fotos/foto2.jpg" alt="Bárbara e Gabriel" loading="lazy"
+             onerror="this.parentElement.innerHTML='<div class=\'photo-placeholder\'><svg width=\'32\' height=\'32\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><path d=\'M21 15l-5-5L5 21\'/></svg><span>Foto 2</span></div>'" />
+      </div>
+      <div class="photo-item fade-up">
+        <img src="./fotos/foto3.jpg" alt="Bárbara e Gabriel" loading="lazy"
+             onerror="this.parentElement.innerHTML='<div class=\'photo-placeholder\'><svg width=\'32\' height=\'32\' viewBox=\'0 0 24 24\' fill=\'none\' stroke=\'currentColor\' stroke-width=\'1\'><rect x=\'3\' y=\'3\' width=\'18\' height=\'18\' rx=\'2\'/><circle cx=\'8.5\' cy=\'8.5\' r=\'1.5\'/><path d=\'M21 15l-5-5L5 21\'/></svg><span>Foto 3</span></div>'" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="onde">
+  <div class="container">
+    <p class="section-label fade-up">O Casamento</p>
+    <h2 class="section-title fade-up">Esperamos você para<br><em>celebrar nosso amor.</em></h2>
+
+    <div class="details-grid">
+      <div class="detail-card fade-up">
+        <div class="detail-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/>
+            <circle cx="12" cy="9" r="2.5"/>
+          </svg>
+        </div>
+        <p class="detail-type">Cerimônia</p>
+        <h3 class="detail-name">Paróquia Nossa Senhora Aparecida</h3>
+        <p class="detail-time">Sábado, 12 de Setembro de 2026 — 15h00</p>
+        <p class="detail-address">
+          R. Marcelo Drumond Tostes, 340<br>
+          Centro — Pres. Bernardes, SP, 19300-000
+        </p>
+        <a href="https://www.google.com/maps/search/?api=1&query=Par%C3%B3quia+Nossa+Senhora+Aparecida+R.+Marcelo+Drumond+Tostes+340+Presidente+Bernardes+SP" target="_blank" rel="noopener" class="btn-map">Ver no mapa ↗</a>
+      </div>
+
+      <div class="detail-card fade-up">
+        <div class="detail-icon">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2">
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+            <polyline points="9,22 9,12 15,12 15,22"/>
+          </svg>
+        </div>
+        <p class="detail-type">Recepção</p>
+        <h3 class="detail-name">Estância Paraíso</h3>
+        <p class="detail-time">Logo após a cerimônia</p>
+        <p class="detail-address">
+          Estrada Municipal Olímpio Martins Álvares<br>
+          Presidente Bernardes, SP, 19300-000
+        </p>
+        <a href="https://www.google.com/maps/search/?api=1&query=Est%C3%A2ncia+Para%C3%ADso+Estrada+Municipal+Ol%C3%ADmpio+Martins+%C3%81lvares+Presidente+Bernardes+SP" target="_blank" rel="noopener" class="btn-map">Ver no mapa ↗</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="presentes">
+  <div class="container">
+    <p class="section-label fade-up">Lista de Presentes</p>
+    <h2 class="section-title fade-up">Com amor, cada<br><em>gesto importa.</em></h2>
+    <p class="section-body fade-up" style="margin-bottom:2.5rem">
+      Fique à vontade para nos presentear com itens físicos, virtuais ou, se preferir,
+      com nossa chave PIX. Qualquer gesto é recebido com muito carinho.
+    </p>
+
+    <div class="pix-card fade-up">
+      <p class="pix-label">Chave PIX — Celular</p>
+      <p class="pix-key">18981409908</p>
+      <p class="pix-bank">Banco Santander  ·  Bárbara / Gabriel</p>
+      <div style="display:flex;align-items:center">
+        <button class="btn-pix" onclick="copyPix()">Copiar chave</button>
+        <span class="copy-msg" id="copyMsg">✓ Copiado!</span>
+      </div>
+    </div>
+
+    <div class="gift-stores">
+      <a href="https://lista.havan.com.br/Convidado/ItensListaPresente/895150"
+         target="_blank" rel="noopener" class="gift-store fade-up">
+        <p class="detail-type">Lista Virtual</p>
+        <p class="store-name">Havan</p>
+        <p class="store-desc">Itens escolhidos com carinho para o nosso novo lar.</p>
+        <p class="store-action">Acessar lista →</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="confirmacao">
+  <div class="container">
+    <p class="section-label fade-up">Confirmação de Presença</p>
+    <div class="rsvp-box fade-up">
+
+      <h2 class="rsvp-title">Confirme sua Presença</h2>
+      <p class="rsvp-deadline">Por favor, confirme sua presença até o dia <strong>10 de Agosto de 2026</strong> para nos ajudar na organização.</p>
+
+      <form class="rsvp-form" onsubmit="sendRsvp(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="rsvp-name">Nome Completo</label>
+            <input type="text" id="rsvp-name" placeholder="Ex: Maria da Silva" required />
+          </div>
+          <div class="form-group">
+            <label for="rsvp-phone">Telefone (WhatsApp)</label>
+            <input type="tel" id="rsvp-phone" placeholder="(00) 00000-0000" required />
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="rsvp-status">Você irá ao casamento?</label>
+          <select id="rsvp-status" required>
+            <option value="" disabled selected>Selecione uma opção...</option>
+            <option value="Sim, com certeza!">Sim, com certeza irei!</option>
+            <option value="Não poderei ir">Infelizmente não poderei comparecer</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="rsvp-guests">Nome dos Acompanhantes (Se houver)</label>
+          <textarea id="rsvp-guests" placeholder="Digite os nomes separados por vírgula..."></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit-rsvp">Enviar Confirmação</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p class="footer-names">Bárbara & Gabriel</p>
+  <p class="footer-date">12 · Setembro · 2026 · 15h00 · Presidente Bernardes, SP</p>
+  <p class="footer-msg">Contamos com a sua presença para tornar esse dia inesquecível!</p>
+  <p class="footer-credit">Feito com ❤️ por uma desenvolvedora amiga!</p>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
