@@ -8,7 +8,7 @@
 
 `12 · Setembro · 2026` &nbsp;•&nbsp; `15h00` &nbsp;•&nbsp; Presidente Bernardes — SP
 
-[![Status](https://img.shields.io/badge/status-online-5e7d63?style=flat-square)](https://casamentojj.vercel.app/#inicio)
+[![Status](https://img.shields.io/badge/status-online-5e7d63?style=flat-square)](nao tem)
 [![HTML5](https://img.shields.io/badge/HTML5-3a5740?style=flat-square&logo=html5&logoColor=white)](#)
 [![CSS3](https://img.shields.io/badge/CSS3-5e7d63?style=flat-square&logo=css3&logoColor=white)](#)
 [![JavaScript](https://img.shields.io/badge/JavaScript-8fab8d?style=flat-square&logo=javascript&logoColor=white)](#)
@@ -16,7 +16,7 @@
 > *"E agora, permanecem a fé, a esperança e o amor. Mas o maior deles é o amor."*
 > — I Coríntios 13:13
 
-🔗 **[Acessar o site →](https://casamentojj.vercel.app/#inicio)**
+🔗 **[Acessar o site →](nao tem)**
 
 </div>
 
@@ -81,14 +81,6 @@ Por ser um site estático, basta abrir o arquivo no navegador:
 ```bash
 # Abra diretamente
 index.html
-```
-
-Ou, para servir localmente (recomendado para testar tudo certinho):
-
-```bash
-# Com Python instalado
-python -m http.server 8000
-# Depois acesse http://localhost:8000
 ```
 
 ---
