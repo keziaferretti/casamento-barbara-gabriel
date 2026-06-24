@@ -70,7 +70,7 @@ function sendRsvp(event) {
   }
 
   const encodedText = encodeURIComponent(text);
-  const whatsappUrl = `https://api.whatsapp.com/send?phone=5518981409908&text=${encodedText}`;
+  const whatsappUrl = `https://api.whatsapp.com/send?phone=5518991679558&text=${encodedText}`;
 
   window.open(whatsappUrl, '_blank');
 }
